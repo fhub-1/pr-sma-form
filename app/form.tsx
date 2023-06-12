@@ -173,7 +173,7 @@ const FormPage =  () => {
                 ></textarea>
               </div>
               {loading ? (
-               <div className="flex items-center justify-center  text-white font-medium bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-600 rounded-lg duration-150">
+               <div className="flex items-center justify-center  text-white font-medium bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-600 rounded-lg duration-150 px-4 p-5">
                <FaSpinner className="animate-spin mr-2" />{" "}
                Submitting...
              </div>
